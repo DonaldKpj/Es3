@@ -171,26 +171,18 @@ def main():
     g.write(' SCC\n')
 
     numerocomp = []
-    
+
     for n in range(1, 100):
         tot = 0
         for j in range(1, 30):
             grafo = Graph(n, prob)
             grafo.Crea_Graph()
-            #grafo.stampa(n)
             grafo.dfs()
-            #print("Dopo dfs:")
-            # grafo.stampa(n)
             grafo.transpose()
-            # grafo.stamp()
             grafo.ordina()
-            # grafo.stampa(n)
-            # grafo.stamp()
             grafo.dfs()
-            # grafo.stampa(n)
             num = grafo.numero_scc()
             tot = tot + num
-            #print("Il numero di componenti fortemente connesse è: ", num)
             grafo.trovaComponenti()
         numerocomp.insert(n, tot / j)
         if n % 2 & n % 3:
@@ -211,20 +203,12 @@ def main():
         for j in range(1, 30): #30
             grafo = Graph(n, prob)
             grafo.Crea_Graph()
-            # grafo.stampa(n)
             grafo.dfs()
-            #print("Dopo dfs:")
-            # grafo.stampa(n)
             grafo.transpose()
-            # grafo.stamp()
             grafo.ordina()
-            # grafo.stampa(n)
-            # grafo.stamp()
             grafo.dfs()
-            # grafo.stampa(n)
             num = grafo.numero_scc()
             tot = tot + num
-            #print("Il numero di componenti fortemente connesse è: ", num)
             grafo.trovaComponenti()
         numerocomp.insert(int(prob), tot / j)
         g.write(str(prob))
