@@ -163,10 +163,12 @@ def main():
 
     f = open('DimensioneCrescente.txt', 'w')
     f.write('Dimensione ')
+    f.write('&')
     f.write(' SCC\n')
 
     g = open('ProbCrescente.txt', 'w')
     g.write('ProbabilitàCrescente\n')
+    g.write('&')
     g.write('Probabilità ')
     g.write(' SCC\n')
 
@@ -198,7 +200,6 @@ def main():
     n = 100
     numerocomp = []
     for prob in range(0, 105, 5): #0 100 5
-    #for prob in np.arange(0, 1.05, 0.05):
         tot = 0
         for j in range(1, 30): #30
             grafo = Graph(n, prob)
