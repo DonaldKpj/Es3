@@ -1,0 +1,23 @@
+ProbabilitàCrescente
+Probabilità  SCC
+0 &  100.0 \\ \hline
+5 &  1.0 \\ \hline
+10 &  1.0 \\ \hline
+15 &  1.0 \\ \hline
+20 &  1.0 \\ \hline
+25 &  1.0 \\ \hline
+30 &  1.0 \\ \hline
+35 &  1.0 \\ \hline
+40 &  1.0 \\ \hline
+45 &  1.0 \\ \hline
+50 &  1.0 \\ \hline
+55 &  1.0 \\ \hline
+60 &  1.0 \\ \hline
+65 &  1.0 \\ \hline
+70 &  1.0 \\ \hline
+75 &  1.0 \\ \hline
+80 &  1.0 \\ \hline
+85 &  1.0 \\ \hline
+90 &  1.0 \\ \hline
+95 &  1.0 \\ \hline
+100 &  1.0 \\ \hline

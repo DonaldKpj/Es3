@@ -1,0 +1,18 @@
+Dimensione  SCC
+1 & 1.0 \\ \hline
+7 & 2.2759 \\ \hline
+13 & 1.6207 \\ \hline
+19 & 1.2414 \\ \hline
+25 & 1.0345 \\ \hline
+31 & 1.0 \\ \hline
+37 & 1.0 \\ \hline
+43 & 1.0 \\ \hline
+49 & 1.0 \\ \hline
+55 & 1.0 \\ \hline
+61 & 1.0 \\ \hline
+67 & 1.0 \\ \hline
+73 & 1.0 \\ \hline
+79 & 1.0 \\ \hline
+85 & 1.0 \\ \hline
+91 & 1.0 \\ \hline
+97 & 1.0 \\ \hline
