@@ -172,8 +172,8 @@ def main():
     g.write('Probabilità ')
     g.write(' SCC\n')
 
+    # test su scc con probabilità fissata e dim crescente
     numerocomp = []
-
     for n in range(1, 100):
         tot = 0
         for j in range(1, 30):
@@ -192,11 +192,13 @@ def main():
             f.write(' & ')
             f.write(str(round(tot / j, 4)))
             f.write(' \\\ \hline\n')
+    # per poter plottare servono 100 passi
     x = np.arange(1, 100, 1)
     plt.plot(x, numerocomp, label="Probabilità fissata dimensione cresscente")
     plt.savefig('DimensioneCrescente.png', bbox_inches='tight')
     plt.close()
 
+    #test su scc con dimensione fissata e prob crescente
     n = 100
     numerocomp = []
     for prob in range(0, 105, 5): #0 100 5
@@ -216,8 +218,8 @@ def main():
         g.write(' &  ')
         g.write(str(round(tot / j, 4)))
         g.write(' \\\ \hline\n')
-
-    x = np.arange(0, 105, 5) #0 0.2 0.01
+    # per poter plottare servono 20 passi
+    x = np.arange(0, 105, 5)
     plt.plot(x, numerocomp, label="Dimensione fissata, probabilità di archi crescente")
     plt.savefig('ProbCrescente.png', bbox_inches='tight')
     plt.close()
